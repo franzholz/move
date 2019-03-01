@@ -1,0 +1,4 @@
+  # cat=basic/enable; type=string; label=System Tables: List of TYPO3 System Tables which are offered to be moved. You must click the checkboxes.
+move.systemtables = fe_users, tt_content
+  # cat=basic/enable; type=string; label=Extension Tables: List of TYPO3 Extension Tables which are offered to be moved. You must click the checkboxes.
+move.extensiontables = tt_products

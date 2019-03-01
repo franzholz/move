@@ -1,0 +1,41 @@
+{
+  "name": "jambagecom/move",
+  "type": "typo3-cms-extension",
+  "description": "An extendable move extension based on the scheduler extension",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "move"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/move/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "http://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.99.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "JambageCom\\Move\\": "Classes"
+    }
+  },
+  "replace": {
+    "move": "self.version",
+    "typo3-ter/move": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "move"
+    }
+  }
+}

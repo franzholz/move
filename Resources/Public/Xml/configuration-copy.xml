@@ -1,0 +1,10 @@
+<Task>
+ <Conf ID="1">
+  <Source>
+   <uid>2</uid>
+  </Source>
+  <Destination>
+   <pid>15,26-27</pid>
+  </Destination>
+ </Conf>
+</Task>

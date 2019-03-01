@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file t3:id="1415814985" source-language="en" datatype="plaintext" original="messages" date="2017-08-24T18:12:37Z" product-name="move">
+		<header/>
+		<body>
+            <trans-unit id="configurationFile.alttitle">
+                <source>Configuration File</source>
+            </trans-unit>
+            <trans-unit id="configurationFile.description">
+                <source>Enter the relative path and the filename to your XML configuration file.</source>
+            </trans-unit>
+            <trans-unit id="configurationFile.details">
+                <source>The configuration of the tables and the page ids of the source records and their destination page ids are stored in a XML file. This XML file has an entry about all page ids with their old and their new value. All records of these tables with any of these source page ids will be moved to the corresponding destination page ids. The XML file contains pairs of source and destination page ids.
+                You must enter the path and the filename of this XML file. E.g. fileadmin/extension/move/move_mytable.xml . You can set a option to change the behaviour from move into copy.</source>
+            </trans-unit>
+            <trans-unit id="tables.alttitle">
+                <source>Tables</source>
+            </trans-unit>
+            <trans-unit id="tables.description">
+                <source>Select the tables which shall be processed.</source>
+            </trans-unit>
+            <trans-unit id="tables.details">
+                <source>The configuration of the tables and the page ids of the source records and their destination page ids are stored in the XML configuration file. This XML file can be executed for multiple tables within one task. You must select manually the tables from which the records shall be moved or copied from one page to another.</source>
+            </trans-unit>
+            <trans-unit id="options.alttitle">
+                <source>Options Move or Copy</source>
+            </trans-unit>
+            <trans-unit id="options.description">
+                <source>Select if the records of the tables shall be moved or copied.</source>
+            </trans-unit>
+            <trans-unit id="options.details">
+                <source>You must select manually if you want to move the records or copy them. By default the records will be moved from one page to another. Make a backup copy before you start with this task.</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
