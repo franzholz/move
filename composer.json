@@ -15,11 +15,11 @@
     {
       "name": "Franz Holzinger",
       "role": "Developer",
-      "homepage": "http://ttproducts.de"
+      "homepage": "https://ttproducts.de"
     }
   ],
   "license": [
-    "GPL-2.0+"
+    "GPL-2.0-or-later"
   ],
   "require": {
     "typo3/cms-core": ">=7.6.0,<8.99.99"
@@ -30,7 +30,7 @@
     }
   },
   "replace": {
-    "move": "self.version",
+    "jambagecom/move": "self.version",
     "typo3-ter/move": "self.version"
   },
   "extra": {
