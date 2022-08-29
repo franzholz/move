@@ -30,7 +30,6 @@
     }
   },
   "replace": {
-    "jambagecom/move": "self.version",
     "typo3-ter/move": "self.version"
   },
   "extra": {
